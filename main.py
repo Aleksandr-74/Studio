@@ -128,7 +128,7 @@ else:
 #    k += 1
 # print(sum_1)
 # '''
-
+'''
 import math
 eps = float(input())
 cur = 0
@@ -137,6 +137,10 @@ while abs(cur - math.e) >= eps:
     cur += 1 / math.factorial(x)
     x += 1
 print(cur)
+'''
+
+
+
 
 
 
