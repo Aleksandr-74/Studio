@@ -138,9 +138,36 @@ while abs(cur - math.e) >= eps:
     x += 1
 print(cur)
 '''
+'''
+for n in input().split():
+    if int(n) > s:
+        s = int(n)
+print(s)
+'''
 
+'''
+s = 0
+n = int(input())
+for k in range(1, n + 1):
+    s += k ** k
+print(s)
+'''
+'''
+s=0
+k=0
+for n in input().split():
+    if int(n) % 3 == 0:
+        s +=int(n)
+        k += 1
+print(s/k)
+'''
+'''
+for i in range(1, 11):
+    for j in  range(1, 11):
+       print(i*j, end= ' ')
+    print()
 
-
+'''
 
 
 
